@@ -8,7 +8,7 @@ const PopulationPyramid = () => {
 
   const option = {
     title: {
-      text: "Population - Nepal (2023)",
+      text: "",
     },
     legend: {
       data: ["Male", "Female"],
@@ -68,8 +68,9 @@ const PopulationPyramid = () => {
 
   return (
     <>
+      <h2 className="centered-text">Population - Nepal (2023)</h2>
       <ReactEcharts option={option} style={{ height: "400px" }} />{" "}
-      <p style={{ textAlign: "center" }}>Percentage of Population</p>
+      <p className="centered-text">Percentage of Population</p>
     </>
   );
 };
