@@ -5,7 +5,6 @@ import PopulationPyramid from "./components/PopulationPyramid";
 function App() {
   return (
     <>
-      <h1>hello</h1>
       <PopulationPyramid></PopulationPyramid>
     </>
   );
